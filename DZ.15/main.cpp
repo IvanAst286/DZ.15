@@ -9,7 +9,8 @@ const int COLS = 36;
 
 int trainTickets[ROWS][COLS];
 
-void randomFill() {
+void randomFill() 
+{
     srand(static_cast<unsigned>(time(nullptr)));
     for (int i = 0; i < ROWS; ++i) 
     {
